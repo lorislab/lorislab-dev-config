@@ -1,0 +1,9 @@
+name: Build Release
+on:
+  push:
+    tags:
+      - '**'
+jobs:
+  release:
+    uses: lorislab/ci-templates/.github/workflows/lib-build-release.yml@main
+    secrets: inherit
