@@ -6,6 +6,7 @@ changelog:
     authors:
       - octocat
       - renovate[bot]
+      - dependabot[bot]
   categories:
     - title: Breaking Changes 🛠
       labels:
