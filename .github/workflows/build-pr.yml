@@ -6,4 +6,4 @@ on:
 jobs:
   pr:
     uses: lorislab/ci-templates/.github/workflows/lib-build-pr.yml@main
-    secrets: inherit
+
