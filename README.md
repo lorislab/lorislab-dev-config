@@ -1,5 +1,9 @@
 # Lorislab development configuration
 
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+[![Maven Central](https://img.shields.io/maven-central/v/org.lorislab.dev/lorislab-dev-config.svg)](https://search.maven.org/artifact/org.lorislab.dev/lorislab-dev-config)
+[![Release](https://img.shields.io/github/v/release/lorislab/lorislab-dev-config.svg)](https://github.com/lorislab/lorislab-dev-config/releases)
+
 Centralized development configuration and code quality rules for lorislab projects. This repository provides shared resources for Maven plugins to ensure consistent code style and quality across multiple libraries and applications.
 
 ## Purpose
@@ -21,7 +25,6 @@ To use these configurations in your project, add this repository as a dependency
         <dependency>
             <groupId>org.lorislab.dev</groupId>
             <artifactId>lorislab-dev-config</artifactId>
-            <version>${lorislab-dev-config.version}</version>
         </dependency>
     </dependencies>
     <configuration>
